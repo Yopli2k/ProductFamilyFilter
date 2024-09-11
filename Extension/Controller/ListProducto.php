@@ -17,37 +17,29 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
-namespace FacturaScripts\Plugins\ProductFamilyFilter;
+namespace FacturaScripts\Plugins\ProductFamilyFilter\Extension\Controller;
 
-use FacturaScripts\Core\Template\InitClass;
+use Closure;
+use FacturaScripts\Dinamic\Lib\ListFilter\TreeFilter;
 
 /**
- * Description of Init
+ * Extension of ListProducto Controller
  *
- * @author Jose Antonio Cuello Principal <yopli2000@gmail.com>
+ * @author José Antonio Cuello Principal <yopli2000@gmail.com>
  */
-class Init extends InitClass
+class ListProducto
 {
-
     /**
-     * Code to load every time FacturaScripts starts.
+     * Create the view to display.
+     *   - Change the family filter by new Tree filter.
      */
-    public function init(): void
+    public function createViews(): Closure
     {
-        $this->loadExtension(new Extension\Controller\ListProducto());
-    }
-
-    /**
-     * Code to load every time the plugin is enabled or updated.
-     */
-    public function update(): void
-    {
-    }
-
-    /**
-     * Code that is executed when uninstalling a plugin.
-     */
-    public function uninstall(): void
-    {
+        return function () {
+            if (isset($this->views['ListProducto'])) {
+                $view = $this->views['ListProducto'];
+                $view->filters['codfamilia'] = new TreeFilter('codfamilia', 'codfamilia', 'family', 'familias', 'madre', 'codfamilia', 'descripcion', []);
+            }
+        };
     }
 }
