@@ -1,8 +1,8 @@
 <?php
 /**
- * This file is part of TreeFilter plugin for FacturaScripts.
- * FacturaScripts Copyright (C) 2015-2024 Carlos Garcia Gomez <carlos@facturascripts.com>
- * TreeFilter     Copyright (C) 2023-2024 Jose Antonio Cuello Principal <yopli2000@gmail.com>
+ * This file is part of ProductFamilyFilter plugin for FacturaScripts.
+ * FacturaScripts      Copyright (C) 2015-2024 Carlos Garcia Gomez <carlos@facturascripts.com>
+ * ProductFamilyFilter Copyright (C) 2023-2024 Jose Antonio Cuello Principal <yopli2000@gmail.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License as
@@ -17,7 +17,7 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
-namespace FacturaScripts\Plugins\TreeFilter;
+namespace FacturaScripts\Plugins\ProductFamilyFilter;
 
 use FacturaScripts\Core\Template\InitClass;
 

@@ -3,17 +3,17 @@ Software de código abierto de facturación y contabilidad para pequeñas y medi
 Software ERP de código abierto. Construido sobre PHP, utilizando de componentes Symfony y Bootstrap 4.
 Fácil y potente.
 
-# TreeFilter
-Plugin para FacturaScripts que añade un nuevo filtro a las vistas List que permite seleccionar datos 
+# ProductFamilyFilter
+Plugin para FacturaScripts que añade un nuevo filtro que permite seleccionar datos 
 jerárquicos (del tipo padre/hijo) como por ejemplo familias y subfamilias.
 
 ## Nombre de carpeta
-Como con todos los plugins, la carpeta se debe llamar igual que el plugin. En este caso **TreeFilter**.
+Como con todos los plugins, la carpeta se debe llamar igual que el plugin. En este caso **ProductFamilyFilter**.
 
 ## Más información
 <ul>
     <li>General info: https://www.facturascripts.com</li>
-    <li>Plugin info:  https://www.facturascripts.com/plugins/treefilter</li>
+    <li>Plugin info:  https://www.facturascripts.com/plugins/productfamilyfilter</li>
 </ul>
 
 
