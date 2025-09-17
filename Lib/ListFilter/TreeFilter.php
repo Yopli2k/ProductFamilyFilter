@@ -21,6 +21,8 @@ namespace FacturaScripts\Plugins\ProductFamilyFilter\Lib\ListFilter;
 
 use FacturaScripts\Core\Base\DataBase;
 use FacturaScripts\Core\Base\DataBase\DataBaseWhere;
+use FacturaScripts\Core\Tools;
+
 use FacturaScripts\Dinamic\Lib\ListFilter\AutocompleteFilter;
 
 /**
