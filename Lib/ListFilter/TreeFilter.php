@@ -1,8 +1,8 @@
 <?php
 /**
  * This file is part of ProductFamilyFilter plugin for FacturaScripts.
- * FacturaScripts      Copyright (C) 2015-2024 Carlos Garcia Gomez <carlos@facturascripts.com>
- * ProductFamilyFilter Copyright (C) 2023-2024 Jose Antonio Cuello Principal <yopli2000@gmail.com>
+ * FacturaScripts      Copyright (C) 2015-2025 Carlos Garcia Gomez <carlos@facturascripts.com>
+ * ProductFamilyFilter Copyright (C) 2023-2025 Jose Antonio Cuello Principal <yopli2000@gmail.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License as
@@ -21,8 +21,6 @@ namespace FacturaScripts\Plugins\ProductFamilyFilter\Lib\ListFilter;
 
 use FacturaScripts\Core\Base\DataBase;
 use FacturaScripts\Core\Base\DataBase\DataBaseWhere;
-use FacturaScripts\Core\Tools;
-
 use FacturaScripts\Dinamic\Lib\ListFilter\AutocompleteFilter;
 
 /**
@@ -32,7 +30,6 @@ use FacturaScripts\Dinamic\Lib\ListFilter\AutocompleteFilter;
  */
 class TreeFilter extends AutocompleteFilter
 {
-
     /**
      * @var string
      */
